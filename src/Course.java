@@ -46,4 +46,9 @@ public class Course {
       }
     }
   }
+
+  public void clear() {
+    String[] temp = new String[100];
+    students = temp;
+  }
 }
